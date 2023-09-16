@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "foodCorner",
+    "slug": "foodCorner",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "foodCorner"
+}
