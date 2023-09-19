@@ -1,0 +1,9 @@
+[submodule "web"]
+	path = web
+	url = ./nextjs
+[submodule "travelNext"]
+	path = travelNext
+	url = https://github.com/hrsohel/travelNext
+[submodule "travel-nextjs"]
+	path = travel-nextjs
+	url = https://github.com/hrsohel/travelNext

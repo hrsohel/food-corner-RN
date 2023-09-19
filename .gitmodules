@@ -1,3 +1,6 @@
 [submodule "desktopapp/blood-bank-desktop/next-app"]
 	path = desktopapp/blood-bank-desktop/next-app
 	url = https://github.com/hrsohel/blood-next
+[submodule "desktopapp/my-electron-react-app/travel-nextjs"]
+	path = desktopapp/my-electron-react-app/travel-nextjs
+	url = https://github.com/hrsohel/travelNext
