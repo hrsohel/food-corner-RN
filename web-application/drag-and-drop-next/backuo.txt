@@ -1,0 +1,30 @@
+<div
+          className="first-div relative border-2"
+          draggable
+          onDragStart={() => (dragItem.current = 0)}
+          onDragEnter={() => (dragItemOver.current = 0)}
+          onDragEnd={handler}
+        >
+          <Image
+            src={`/images/${imageData[0].image}`}
+            className="w-full h-full object-contain"
+            width="1000"
+            height="1000"
+            alt="images"
+          />
+          {/* overlay div. it is shown when hover this image */}
+          <div
+            className={`${
+              imageData[0].checked ? "bg-slate-300 opacity-70" : ""
+            }  absolute image-overlay left-0 top-0 hover:opacity-60 hover:bg-slate-500 w-full h-full`}
+          ></div>
+          {/* this is a checkbox. it is shown when hover the image */}
+          <input
+            type="checkbox"
+            name=""
+            className={`bg-white selected-icon ${
+              imageData[0].checked ? "z-10" : "-z-10"
+            } absolute left-2 top-2 w-4 h-4`}
+            onClick={() => myFunc(0, imageData[0])}
+          />
+        </div>

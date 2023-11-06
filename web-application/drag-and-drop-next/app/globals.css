@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* *{
+  transition: 0.3s;
+}  */
+
+.image-div {
+  cursor: move;
+}
+/* .first-div {
+  width: 20rem;
+  height: 20rem;
+}
+.first-div:hover input {
+  z-index: 10;
+} */
+.image-div:first-child {
+  width: 20rem;
+  height: 20rem;
+}
+.image-div:hover .selected-icon {
+  z-index: 10;
+}
